@@ -91,12 +91,12 @@ int numTones2 = 30;
 int tones2[] = {300,500,300,500,300,500,300,500,300,500,300,500,300,500,300,500,300,500,300,500,300,500,300,500,300,500,300,500,300,500};
 
 //Pins
-int geyPin = 9;
-int serverPin = 7;
-int clientPin = 8;
-int heaterPin = 3;
-int alarmPin = 5;
-int securityPin = 6;
+int geyPin = 9;		// pin connected to a relay that control the geyser
+int serverPin = 7;  // led to indicate if the Edison is connected to the wifi
+int clientPin = 8;	// led to indicate if someone is using the server
+int heaterPin = 3;	// pin connected to a relay that control the heater
+int alarmPin = 5;	// pin connected to an alarm
+int securityPin = 6;// pin connected to a motion sensor	
 
 // Others
 char ssid[] = "etilab";      //  your network SSID (name) 
